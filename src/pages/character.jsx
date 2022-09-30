@@ -35,7 +35,7 @@ function Character() {
           <div className="line" />{' '}
           <div className="item">
             <b>Caracters: </b>
-            {Math.ceil(episode?.find?.characters?.length + 1)}{' '}
+            {episode?.find?.characters?.length}{' '}
           </div>
         </span>
         <div className="go-back">
